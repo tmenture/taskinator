@@ -257,9 +257,7 @@ var loadTasks = function() {
   if (!savedTasks) {
     return false;
   }
-  console.log("Saved tasks found!");
-  // else, load up saved tasks
-
+  
   // parse into array of objects
   savedTasks = JSON.parse(savedTasks);
 
